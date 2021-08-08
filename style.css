@@ -1,0 +1,78 @@
+#field {
+
+  width: 700px;
+  height: 700px;
+  background-color: rgb(168, 168, 157);
+padding: 1px;
+}
+
+#truck{
+  display: flex;
+  width:80px;
+  height: 200px;
+  background-color: brown;
+  margin-left: 200px;
+  margin-top: 300px;
+  padding: 1px;
+  position: absolute;
+  flex-direction: column;
+}
+
+
+#front {
+  display: flex;
+  height: 49%;
+  width: 98%;
+  background-color: burlywood;
+  padding: 1px;
+}
+
+#rear{
+
+  display: flex;
+  height: 49%;
+  padding: 1px;
+  width: 98%;
+background-color: chocolate;
+padding: 1px;
+
+}
+
+
+#wheel-front-left{
+
+  width:10px;
+  height: 35px;
+  background-color: black;
+  padding: 2px;
+  margin-top: 20px;
+
+}
+
+#wheel-front-right{
+
+  width:10px;
+  height: 35px;
+  background-color: black;
+  padding: 2px;
+  margin-top: 20px;
+  margin-left: 50px;
+
+}
+
+#wheel-rear-left{
+  width:10px;
+  height: 35px;
+  background-color: black;
+  padding: 2px;
+  margin-top: 30px;
+}
+
+#wheel-rear-right{
+  width:10px;
+  height: 35px;
+  background-color: black;
+  padding: 2px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
