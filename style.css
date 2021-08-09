@@ -7,21 +7,23 @@ padding: 1px;
 }
 
 #truck{
+  transform-origin: 50% 80%;
   display: flex;
   width:80px;
   height: 200px;
   background-color: brown;
   margin-left: 200px;
-  margin-top: 300px;
+  margin-top: 350px;
   padding: 1px;
   position: absolute;
   flex-direction: column;
+
 }
 
 
 #front {
   display: flex;
-  height: 49%;
+  height: 39%;
   width: 98%;
   background-color: burlywood;
   padding: 1px;
@@ -30,7 +32,7 @@ padding: 1px;
 #rear{
 
   display: flex;
-  height: 49%;
+  height: 59%;
   padding: 1px;
   width: 98%;
 background-color: chocolate;
