@@ -26,13 +26,16 @@ document.addEventListener ( 'keydown', function (event){
   if(event.key === 'w'|| event.key === 'ArrowUp'){
 
 
+    // count = 0;
     // var it = setInterval(()=>{
 
 
+    //       if(count === 1000){
 
-    //       console.log('here');
-    //       clearInterval(it);
-    //     }
+    //         clearInterval(it);
+    //         count++;
+    //       }
+
 
 
 
@@ -56,7 +59,7 @@ document.addEventListener ( 'keydown', function (event){
     document.getElementById('truck').style.marginTop =  positionY + 'px';
 
 
-  //    }, 50);
+      // }, 50);
 
 
 

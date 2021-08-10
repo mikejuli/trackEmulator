@@ -20,6 +20,18 @@ padding: 1px;
 
 }
 
+#trunk {
+  z-index: 5;
+  margin-top: 10px;
+  margin-left: 1px;
+  position: absolute;
+  width: 70px;
+  height: 250px;
+  background-color: darkcyan;
+  border: solid rgb(24, 22, 26);
+  border-radius: 20%;
+}
+
 
 #front {
   display: flex;
