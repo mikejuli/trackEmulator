@@ -5,8 +5,12 @@ console.log('14');
   var rotate = 0;
   var tempRotate =0 ;
 
+document.getElementById('stat').innerHTML = rotate;
 
 document.addEventListener ( 'keydown', function (event){
+
+  document.getElementById('stat').innerHTML = rotate;
+  document.getElementById('stat1').innerHTML = tempRotate;
 
   if(event.key === 'a' || event.key === 'ArrowLeft'){
     console.log(event.key);
@@ -68,18 +72,18 @@ document.addEventListener ( 'keydown', function (event){
 
   if(event.key === 's'|| event.key === 'ArrowDown'){
 
-    tempRotate+=rotate;
+    tempRotate-=rotate;
 
     console.log(event.key);
 
     positionY= positionY + (15 * Math.cos((tempRotate) * Math.PI/180));
-    positionX= positionX + (15 * Math.sin((tempRotate) * Math.PI/180));
+    positionX= positionX - (15 * Math.sin((tempRotate) * Math.PI/180));
 
     console.log(positionY, positionX);
     console.log(15* Math.cos((tempRotate) * Math.PI/180),15* Math.sin((tempRotate) * Math.PI/180));
 
     if(rotate!== 0 ){
-      document.getElementById('truck').style.transform = 'rotate('+ (-tempRotate)+'deg)';
+      document.getElementById('truck').style.transform = 'rotate('+ tempRotate+'deg)';
     }
 
     document.getElementById('truck').style.marginLeft =  positionX + 'px';
