@@ -5,12 +5,12 @@ console.log('14');
   var rotate = 0;
   var tempRotate =0 ;
 
-document.getElementById('stat').innerHTML = rotate;
+//document.getElementById('stat').innerHTML = rotate;
 
 document.addEventListener ( 'keydown', function (event){
 
-  document.getElementById('stat').innerHTML = rotate;
-  document.getElementById('stat1').innerHTML = tempRotate;
+  //document.getElementById('stat').innerHTML = rotate;
+  //document.getElementById('stat1').innerHTML = tempRotate;
 
   if(event.key === 'a' || event.key === 'ArrowLeft'){
     console.log(event.key);

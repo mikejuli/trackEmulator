@@ -1,7 +1,7 @@
 #field {
 
   width: 700px;
-  height: 700px;
+  height: 750px;
   background-color: rgb(168, 168, 157);
 padding: 1px;
 }
@@ -21,15 +21,15 @@ padding: 1px;
 }
 
 #trunk {
-  z-index: 5;
-  margin-top: 10px;
-  margin-left: 1px;
+  transform-origin: 50% 20%;
+  margin-top: 450px;
+  margin-left: 200px;
   position: absolute;
-  width: 70px;
+  width: 81px;
   height: 250px;
-  background-color: darkcyan;
-  border: solid rgb(24, 22, 26);
-  border-radius: 20%;
+  background-color: rgb(30, 94, 94);
+  border: rgb(24, 22, 26);
+  border-radius: 10%;
 }
 
 
@@ -52,6 +52,28 @@ padding: 1px;
 
 }
 
+#front-trunk{
+
+  display: flex;
+  height: 59%;
+  padding: 1px;
+  width: 98%;
+
+padding: 1px;
+
+}
+
+#rear-trunk{
+
+  display: flex;
+  height: 29%;
+  padding: 1px;
+  width: 98%;
+
+padding: 1px;
+
+}
+
 
 #wheel-front-left{
 
@@ -60,6 +82,8 @@ padding: 1px;
   background-color: black;
   padding: 2px;
   margin-top: 20px;
+  padding-left: 12px;
+  margin-left: -5px;
 
 }
 
@@ -69,24 +93,31 @@ padding: 1px;
   height: 35px;
   background-color: black;
   padding: 2px;
+  padding-right: 12px;
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 60px;
+
 
 }
 
 #wheel-rear-left{
+
   width:10px;
   height: 35px;
   background-color: black;
   padding: 2px;
   margin-top: 30px;
+  padding-left: 12px;
+  margin-left: -5px;
 }
 
 #wheel-rear-right{
+
   width:10px;
   height: 35px;
   background-color: black;
   padding: 2px;
   margin-top: 30px;
-  margin-left: 50px;
+  margin-left: 60px;
+  padding-right: 12px;
 }
