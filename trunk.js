@@ -10,12 +10,12 @@ document.addEventListener ( 'keydown', function (event){
 
   if(event.key === 'a' || event.key === 'ArrowLeft'){
     console.log(event.key);
-    rotateTrunk-=5;
+    rotateTrunk-=3;
   }
 
   if(event.key === 'd'|| event.key === 'ArrowRight'){
     console.log(event.key);
-    rotateTrunk+=5;
+    rotateTrunk+=3;
      }
 
   if(event.key === 'w'|| event.key === 'ArrowUp'){
@@ -48,7 +48,7 @@ document.addEventListener ( 'keydown', function (event){
 
   if(event.key === 's'|| event.key === 'ArrowDown'){
 
-    tempRotateTrunk-=rotateTrunk;
+    tempRotateTrunk+=rotateTrunk;
 
     console.log(event.key);
 

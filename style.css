@@ -1,9 +1,19 @@
+#truckField {
+
+  position: relative;
+  width: 330px;
+  height: 330px;
+
+
+}
+
 #field {
 
   width: 700px;
   height: 750px;
   background-color: rgb(168, 168, 157);
 padding: 1px;
+position: relative;
 }
 
 #truck{
@@ -21,7 +31,7 @@ padding: 1px;
 }
 
 #trunk {
-  transform-origin: 50% 20%;
+  transform-origin: 50% 80%;
   margin-top: 450px;
   margin-left: 200px;
   position: absolute;
@@ -30,6 +40,7 @@ padding: 1px;
   background-color: rgb(30, 94, 94);
   border: rgb(24, 22, 26);
   border-radius: 10%;
+
 }
 
 
